@@ -2,5 +2,5 @@
 Performing analysis on kick starter to uncover trends for Louise, a playwright. She wants to launch a campaign to fund her own play and was curious about the specific attributes of failed and successful campaigns.
 ![SuccessRate](https://github.com/Greg-Finin/kickstarter-analysis/blob/master/SuccessRate.png)
 [Excel Document with Analysis](C:\Users\Greg.Finin\Documents\Crowdfunding Analysis\"KickStarter1.xlsx")
-[Link To MD File] (Users\Greg.Finin\Documents\"test.md")
+[Link To MD File] (C:\Users\Greg.Finin\Documents\"test.md")
 
