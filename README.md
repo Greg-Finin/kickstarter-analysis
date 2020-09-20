@@ -19,7 +19,7 @@ Louise's second request was that we anaylze the campaigns based on their goals. 
 As referenced above, the main challenges associated with these two projects were related to the gathering of specific metrics and key pieces of information. We were given a large datasets and requied to pare them down into concise, readable displays of relevant information. The diffuclty lay mostly in the filtering and sorting of the information, as improperly filtered data would provide Louise with results not relevant to her campaigns. If we were unable to create the columns such as 'Years' or 'Goals" and compare them directly to the dataset we were given, this task would have been far more difficult. In several cases we utilized excel functions that did most of the work, and if we were not familiar with such operations we would surely have encountered far more problems in the creation of this analysis.
 
 ## Results
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- What are two conclusions you can draw about the Outcomes based on Launch Date? &nbsp;
 It is clear from both the Table and the Graph, that in the years span that we are reviewing, May has more succesful campaigns than any other month, with 111. June, however, is not far behind, with 100, and actually has a higher rate of succesful campaigns. December, on the other hand, has the lowest number of succesful campaigns, with 37, and a very low rate of success, with 35 failed campaigns. 
 
 - What can you conclude about the Outcomes based on Goals?
