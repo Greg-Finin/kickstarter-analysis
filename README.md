@@ -11,7 +11,7 @@ Louise's first request was that we gather campaign data based on start date, to 
 ![Image of Analysis Based on Launch Date](https://github.com/Greg-Finin/kickstarter-analysis/blob/master/Outcomes%20based%20on%20Launch%20Date%202.0.png)
 
 ### Analysis of Outcomes Based on Goals
-Louise's second request was that we anaylze the campaigns based on their goals. Did a high campaign goal have any effect on the success rate of the campaign? Did a low one? In order to do this we needed to create a series of dollar-amount ranges in which we could put our campaigns, to filter the data into a readable format. We created a new Worksheet within the excel file, with a column "Goals", that had various 'buckets' that we could put the campaigns into (Under $1000, Between $1000 and $4999, etc.). This allowed us to review each campaign based on their desired goal. From there, the challenging aspect of this project was to compile all the information and compare it to our new filters. We utilized the CountIfs() function, which was able to compare each theater campaign's target goal to the newly established column of dollar-amount rangers. Furthermore, we were able to use the same category we used above, that is the 'Outcomes' column, to display the number of successful, failed and canceled campaigns based on their target goal. From there it was a simple calcuation to get the percentage of succesful and failed campaigns based on their target goal, and to display that information in their own columns.The image below displays the chart that we were able to make, using the data in our Pivot Table.
+Louise's second request was that we anaylze the campaigns based on their goals. Did a high campaign goal have any effect on the success rate of the campaign? Did a low one? In order to do this we needed to create a series of dollar-amount ranges in which we could put our campaigns, to filter the data into a readable format. We created a new Worksheet within the excel file, with a column "Goals", that had various 'buckets' that we could put the campaigns into (Under $1000, Between $1000 and $4999, etc.). This allowed us to review each campaign based on their desired goal. From there, the challenging aspect of this project was to compile all the information and compare it to our new filters. We utilized the CountIfs() function, which was able to compare each theater campaign's target goal to the newly established column of dollar-amount ranges. Furthermore, we were able to use the same category we used above, that is the 'Outcomes' column, to display the number of successful, failed and canceled campaigns based on their target goal. From there it was a simple calcuation to get the percentage of succesful and failed campaigns based on their target goal, and to display that information in their own columns.The image below displays the chart that we were able to make, using the data in our Pivot Table.
 ![Outcomes Based on Goal](https://github.com/Greg-Finin/kickstarter-analysis/blob/master/Outcomes%20based%20on%20Goal%202.0.png)
 
 
@@ -19,14 +19,22 @@ Louise's second request was that we anaylze the campaigns based on their goals. 
 As referenced above, the main challenges associated with these two projects were related to the gathering of specific metrics and key pieces of information. We were given a large datasets and requied to pare them down into concise, readable displays of relevant information. The diffuclty lay mostly in the filtering and sorting of the information, as improperly filtered data would provide Louise with results not relevant to her campaigns. If we were unable to create the columns such as 'Years' or 'Goals" and compare them directly to the dataset we were given, this task would have been far more difficult. In several cases we utilized excel functions that did most of the work, and if we were not familiar with such operations we would surely have encountered far more problems in the creation of this analysis.
 
 ## Results
-- What are two conclusions you can draw about the Outcomes based on Launch Date? &nbsp;
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+
 It is clear from both the Table and the Graph, that in the years span that we are reviewing, May has more succesful campaigns than any other month, with 111. June, however, is not far behind, with 100, and actually has a higher rate of succesful campaigns. December, on the other hand, has the lowest number of succesful campaigns, with 37, and a very low rate of success, with 35 failed campaigns. 
 
 - What can you conclude about the Outcomes based on Goals?
+
+
 We can see from our Table that the Outcomes based on goals has a few stories to tell. The first being that, as one might expect, a low goal can mean a higher success rate, with the highest succes rate (76%) correlates to the lowest target goal (less than 1000). However, in reviewing the other portions of the table, we see that the two ranges $35000 to $39999 and $4000 to $4499 also have high success rates, 67%. This shows us that although the lowest target goal has the highest chance of being successful, a higher target goal does not impact the success rate in a drastic manner until you reach the $45000 and Greater than $50000 ranges.
 
 - What are some limitations of this dataset?
+
+
 This dataset is limited to campaigns that are only run on kickstarter. There have been far more theater productions funded by other methods, which this dataset does not address at all. 
 
 - What are some other possible tables and/or graphs that we could create?
+
+
 As mentioned above, a possible addition to this study could be a chart that displays the number of succesful campaigns per year. A downward trend in the success of campagins in the last few years might disuade someone from starting a new campaign. An upward trend, conversly, would encourage new campaigns.
