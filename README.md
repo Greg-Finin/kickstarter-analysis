@@ -12,7 +12,7 @@ Louise's first request was that we gather campaign data based on start date, to 
 
 ### Analysis of Outcomes Based on Goals
 Louise's second request was that we anaylze the campaigns based on their goals. Did a high campaign goal have any effect on the success rate of the campaign? Did a low one? In order to do this we needed to create a series of dollar-amount ranges in which we could put our campaigns, to filter the data into a readable format. We created a new Worksheet within the excel file, with a column "Goals", that had various 'buckets' that we could put the campaigns into (Under $1000, Between $1000 and $4999, etc.). This allowed us to review each campaign based on their desired goal. From there, the challenging aspect of this project was to compile all the information and compare it to our new filters. We utilized the CountIfs() function, which was able to compare each theater campaign's target goal to the newly established column of dollar-amount rangers. Furthermore, we were able to use the same category we used above, that is the 'Outcomes' column, to display the number of successful, failed and canceled campaigns based on their target goal. From there it was a simple calcuation to get the percentage of succesful and failed campaigns based on their target goal, and to display that information in their own columns.The image below displays the chart that we were able to make, using the data in our Pivot Table.
-![Outcomes Based on Goal]https://github.com/Greg-Finin/kickstarter-analysis/blob/master/Outcomes%20based%20on%20Goal%202.0.png
+![Outcomes Based on Goal](https://github.com/Greg-Finin/kickstarter-analysis/blob/master/Outcomes%20based%20on%20Goal%202.0.png)
 
 
 ### Challenges and Difficulties Encountered
